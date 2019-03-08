@@ -1,0 +1,19 @@
+<!--pages/tabs/tab.wxml-->
+<compage id="compage">
+  <view class="item">
+    <view class="item_title">TAB1</view>
+    <view>1、</view>
+    <vwx-tab id="tab1" tabs="{{tabs}}" bindmyselect="tapMenu"></vwx-tab>
+    <view>2、</view>
+    <vwx-tab tabs="{{[1,2,3,4]}}" actIndex="2" bindmyselect="tapMenu"></vwx-tab>
+  </view>
+
+  <view class="item">
+    <view class="item_title">TAB2</view>
+    <view>1、</view>
+    <vwx-tab1 id="tab1" tabs="{{tabs}}" bindmyselect="tapMenu" ></vwx-tab1>
+    <view>2、</view>
+    <vwx-tab1 tabs="{{[1,2,3,4]}}" actIndex="2"  bindmyselect="tapMenu"></vwx-tab1>
+  </view>
+
+</compage>

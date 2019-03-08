@@ -1,0 +1,4 @@
+{"navigationBarTitleText": "线图",
+ "usingComponents": {
+	"ch-canvas": "/component/ch-canvas/ch-canvas"
+}}

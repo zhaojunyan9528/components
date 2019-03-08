@@ -1,0 +1,11 @@
+/* pages/tabs/tab.wxss */
+.vcls .weui-navbar__item{
+   height: 120rpx;
+}
+.item{
+  margin-top: 30rpx;
+}
+.item_title{
+  font-weight: 700;
+  font-size: 40rpx;
+}
